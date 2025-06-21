@@ -12,7 +12,7 @@ layout: doc
   <h3 align="center">Plain Craft Launcher 2 Community Edition</h3>
 
   <p align="center">
-    由社区强力驱动的抢先预览版
+    由社区强力驱动的 PCL2 抢先预览版
     <br />
     <br />
     <a href="/projects/pcl-ce/changelog.html">更新日志</a>

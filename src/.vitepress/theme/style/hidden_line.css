@@ -1,0 +1,44 @@
+/* 隐藏文档中各种横条
+/* /src/.vitepress\theme\style\hidden_line.css */
+/* https://vitepress.yiov.top/style.html#%E9%9A%90%E8%97%8F%E6%A8%AA%E6%9D%A1 */
+:root {
+
+    /* 文档页Logo出文字下横条 */
+    @media (min-width: 960px) {
+        .VPNavBarTitle.has-sidebar .title {
+            border-bottom-color: transparent;
+        }
+    }
+
+    /* 页脚横条隐藏 */
+    .VPFooter {
+        border-top: none;
+    }
+
+    /* 手机端菜单栏顶部横条隐藏 */
+    .VPNavBar.screen-open {
+        border-bottom: none;
+    }
+
+    /* 手机端菜单栏菜单分割线隐藏 */
+    .VPNavScreenMenuLink {
+        border-bottom: none;
+    }
+
+    /* 手机端菜单组隐藏 */
+    .VPNavScreenMenuGroup {
+        border-bottom: none;
+    }
+
+    /* 手机端大纲栏横条隐藏 */
+    .VPLocalNav {
+        border-bottom: none;
+    }
+
+}
+
+
+/* 导航栏下划线隐藏 */
+.divider {
+    display: none;
+}

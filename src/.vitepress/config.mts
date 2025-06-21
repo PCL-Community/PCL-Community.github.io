@@ -31,9 +31,19 @@ export default defineConfig({
       ], 
     }
   },
+
   themeConfig: {
 
     logo: '/img/logo.png',
+
+    outline: {
+      label: '当前页导航',
+    },
+    returnToTopLabel: '回到顶部',
+    sidebarMenuLabel: '菜单',
+    darkModeSwitchLabel: '主题',
+    lightModeSwitchTitle: '切换到浅色模式',
+    darkModeSwitchTitle: '切换到深色模式',
 
     nav: [
       { text: '主页', link: '/index.md' },
@@ -62,8 +72,8 @@ export default defineConfig({
     ],
 
     footer: {
-      message: '本站由 VitePress 强力驱动',
-      copyright: 'Copyright © PCL Community'
+      message: '本站由 <a href="https://vitepress.dev" target="_blank">VitePress</a> 强力驱动',
+      copyright: 'Copyright © <a href="https://github.com/PCL-Community" target="_blank">PCL Community</a>'
     }
   }
 })

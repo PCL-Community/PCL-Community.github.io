@@ -3,6 +3,9 @@ import { h } from 'vue'
 import DefaultTheme from 'vitepress/theme'
 import type { Theme as ThemeConfig } from 'vitepress'
 
+// 主 CSS 文件
+import './style/index.css'
+
 // 时间线
 import "vitepress-markdown-timeline/dist/theme/index.css";
 
